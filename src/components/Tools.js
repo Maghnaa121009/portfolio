@@ -50,7 +50,7 @@ const toolsData = [
     category: "Research, Network Analysis & Testbeds",
     tools: [
       { name: "Wireshark", image: "https://img.icons8.com/ios/100/wifi.png" },
-      { name: "Scapy", image: "https://img.icons8.com/ios/100/database-administrator.png" },
+      { name: "Scapy", image: "https://img.icons8.com/ios/100/console.png" },
       { name: "Docker", image: "https://img.icons8.com/ios/100/docker.png" },
       { name: "OMNeT++", image: "https://img.icons8.com/ios/100/share.png" },
       { name: "TensorFlow", image: "https://img.icons8.com/ios/100/artificial-intelligence.png" },
