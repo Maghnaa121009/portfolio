@@ -76,7 +76,7 @@ const StudentOrganization = () => {
             {/* LOGO */}
             <div className="flex justify-end">
               <img
-                src="/CSLI.jpeg"
+                src={`${process.env.PUBLIC_URL}/CSLI.jpeg`}
                 alt="CSA Logo"
                 className="h-24 w-auto object-contain"
               />
@@ -91,7 +91,7 @@ const StudentOrganization = () => {
             <button onClick={() => openImage("/DSC_4387.webp","CSA CTF Event")}>
 
               <img
-                src="/DSC_4387.webp"
+                src={`${process.env.PUBLIC_URL}/DSC_4387.webp`}
                 alt="CSA CTF Event"
                 className="h-56 w-full object-cover rounded-xl hover:scale-105 transition"
               />
@@ -101,7 +101,7 @@ const StudentOrganization = () => {
             <button onClick={() => openImage("/WhatsApp Image 2025-08-22 at 5.54.59 PM (3).jpeg","CSA Event")}>
 
               <img
-                src="/WhatsApp Image 2025-08-22 at 5.54.59 PM (3).jpeg"
+                src={`${process.env.PUBLIC_URL}/WhatsApp Image 2025-08-22 at 5.54.59 PM (3).jpeg`}
                 alt="CSA Event"
                 className="h-56 w-full object-cover rounded-xl hover:scale-105 transition"
               />
@@ -111,7 +111,7 @@ const StudentOrganization = () => {
             <button onClick={() => openImage("/WhatsApp Image 2025-10-15 at 6.52.00 PM (1).jpeg","CSA Workshop")}>
 
               <img
-                src="/WhatsApp Image 2025-10-15 at 6.52.00 PM (1).jpeg"
+                src={`${process.env.PUBLIC_URL}/WhatsApp Image 2025-10-15 at 6.52.00 PM (1).jpeg`}
                 alt="CSA Workshop"
                 className="h-56 w-full object-cover rounded-xl hover:scale-105 transition"
               />
@@ -185,7 +185,7 @@ const StudentOrganization = () => {
             <div className="flex justify-end">
 
               <img
-                src="/Screenshot 2026-03-07 at 11.42.36 PM.png"
+                src={`${process.env.PUBLIC_URL}/Screenshot 2026-03-07 at 11.42.36 PM.png`}
                 alt="ISSF Lab"
                 className="h-24 w-auto object-contain"
               />
@@ -202,7 +202,7 @@ const StudentOrganization = () => {
             <button onClick={() => openImage("/Screenshot 2026-03-07 at 11.27.37 PM.png","ISSF Poster")}>
 
               <img
-                src="/Screenshot 2026-03-07 at 11.27.37 PM.png"
+                src={`${process.env.PUBLIC_URL}/Screenshot 2026-03-07 at 11.27.37 PM.png`}
                 alt="ISSF Poster"
                 className="h-56 w-full object-cover rounded-xl hover:scale-105 transition"
               />
@@ -212,7 +212,7 @@ const StudentOrganization = () => {
             <button onClick={() => openImage("/Screenshot 2026-03-07 at 11.29.04 PM.png","ISSF Lab")}>
 
               <img
-                src="/Screenshot 2026-03-07 at 11.29.04 PM.png"
+                src={`${process.env.PUBLIC_URL}/Screenshot 2026-03-07 at 11.29.04 PM.png`}
                 alt="ISSF Lab"
                 className="h-56 w-full object-cover rounded-xl hover:scale-105 transition"
               />
@@ -222,7 +222,7 @@ const StudentOrganization = () => {
             <button onClick={() => openImage("/Japan professor_2.jpg","ISSF Research")}>
 
               <img
-                src="/Japan professor_2.jpg"
+                src={`${process.env.PUBLIC_URL}/Japan professor_2.jpg`}
                 alt="ISSF Research"
                 className="h-56 w-full object-cover rounded-xl hover:scale-105 transition"
               />

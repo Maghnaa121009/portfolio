@@ -63,7 +63,7 @@ const About = () => {
         >
           <div className="flex gap-5 items-center">
             <img
-              src="/PNG image.jpeg"
+              src={`${process.env.PUBLIC_URL}/PNG image.jpeg`} 
               alt="Maghnaa Sathish Kumar"
               className="w-24 h-24 rounded-xl object-cover border border-blue-500/20"
             />
