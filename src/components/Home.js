@@ -35,7 +35,7 @@ const Home = () => {
 
           <div className="mt-7 flex flex-wrap gap-4">
             <a
-              href={`${process.env.PUBLIC_URL}/Maghnaa_Kumar.pdf`}
+              href={`${process.env.PUBLIC_URL}/Maghnaa_SK.pdf`}
               download
               className="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition font-semibold shadow-sm"
             >
